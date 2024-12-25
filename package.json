@@ -4,9 +4,9 @@
   "description": "VScode theme using WallRizz",
   "publisher": "ssdev",
   "author": "Shubham Singh",
-  "version": "0.0.4",
-  "repository":"git@github.com:5hubham5ingh/vscode-wallrizz-extension.git",
-  "icon":"./rizzed-penguin.png",
+  "version": "0.0.6",
+  "repository": "git@github.com:5hubham5ingh/vscode-wallrizz-extension.git",
+  "icon": "rizzed-penguin.png",
   "engines": {
     "vscode": "*"
   },
@@ -21,9 +21,6 @@
         "path": "./themes/wallrizz-theme.json",
         "_watch": true
       }
-    ],
-  },
-  "dependencies": {
-    "@vscode/vsce": "^3.2.1"
+    ]
   }
 }
