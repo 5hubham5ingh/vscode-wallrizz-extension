@@ -1,0 +1,28 @@
+{
+  "name": "wallrizz-theme",
+  "displayName": "WallRizz theme Official",
+  "description": "VScode theme using WallRizz",
+  "publisher": "ssdev",
+  "author": "Shubham Singh",
+  "version": "0.0.3",
+  "repository":"git@github.com:5hubham5ingh/vscode-wallrizz-extension.git",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "WallRizz Theme",
+        "uiTheme": "vs",
+        "path": "./themes/wallrizz-theme.json",
+        "_watch": true
+      }
+    ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.2.1"
+  }
+}
